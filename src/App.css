@@ -1,0 +1,77 @@
+.todos-container{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+    background-image: linear-gradient(to top left, #fc0345,#fc03b1,#4a03fc);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    justify-content: center;
+}
+
+.form{
+    width:400px;
+    height:300px;
+    background-color:rgba(0,0,0,0.5);
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    border-radius:10px;
+    padding:20px;
+    margin-top:10px;
+}
+.form-group{
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label{
+    font-size:16px;
+    color:white;
+    margin-bottom:5px;
+}
+
+.form-group input[type="text"],textarea{
+    width:90%; 
+    height:40px; 
+    border-radius:5px;
+    border:none;
+    padding:10px;
+    font-size:16px;
+    color:white;
+    background-color:rgba(0,0,0,0.5); 
+}
+
+.form-group .form-submit-btn{
+    width:100%; 
+    height:40px; 
+    border-radius:5px;
+    border:none;
+    background-color:rgba(255,255,255,0.5);
+    color:black;
+    font-size:16px;
+    cursor:pointer;
+}
+.no-todos{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.todos-list{
+    margin: 10px auto;
+    padding:0px; 
+    list-style:none;
+    width: 50%;  
+}
+.todo-item{
+    background-color:rgba(0,0,0,0.5);
+    background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0)); 
+    backdrop-filter: "blur(10px)"; 
+    box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
+    padding: 10px; 
+    border-radius:20px;
+    margin-bottom:10px; 
+}
